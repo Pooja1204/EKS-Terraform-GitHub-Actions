@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/Pooja1204/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project.git'
+                git branch: 'master', url: 'https://github.com/Pooja1204/EKS-Terraform-GitHub-Actions.git'
             }
         }
         stage('Init') {
