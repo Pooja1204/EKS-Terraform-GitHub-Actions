@@ -5,6 +5,7 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 5.49.0"
     }
+terraform init -migrate-state
   }
   backend "s3" {
     bucket         = "my-ews-baket1010202"
